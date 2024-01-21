@@ -1,0 +1,66 @@
+html { overflow-y: hidden; }
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: beige;
+  background-attachment: fixed;
+}
+
+#myH1 {
+  font-size: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#myText {
+  font-size: 200px;
+  margin: 20px auto;
+  font-family: monospace;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+}
+
+.container button {
+  font-size: 30px;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.container #startButton {
+  background-color: hsl(120, 98%, 60%);
+}
+
+.container #startButton:hover {
+  background-color: hsl(120, 98%, 45%);
+}
+
+.container #resetButton {
+  background-color: red;
+}
+
+.container #resetButton:hover {
+  background-color: hsl(0, 100%, 40%);
+}
+
+.container #stopButton {
+  background-color: hsl(240, 100%, 50%);
+}
+
+.container #stopButton:hover {
+  background-color: hsl(240, 100%, 40%);
+}
